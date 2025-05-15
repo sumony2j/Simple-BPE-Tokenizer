@@ -86,7 +86,7 @@ python Tokenizer.py --train --dataset ./train.txt --vocab_size 300 --save my_tok
 python Tokenizer.py --use_tokenizer --load my_tokenizer.bin --input "Hello world"
 ```
 
-Or to tokenize a text file:
+### ✅ Tokenize a text file:
 
 ```bash
 python Tokenizer.py --use_tokenizer --load my_tokenizer.bin --input ./test.txt
